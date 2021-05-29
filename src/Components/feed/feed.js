@@ -33,6 +33,12 @@ function Feed() {
           />
         </div>
       </div>
+
+      <div>
+          <h4>post section comming soon </h4>
+      </div>
+    
+
     </div>
   );
 }
