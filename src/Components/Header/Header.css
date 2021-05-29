@@ -12,6 +12,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    background-color: white;
 }
 .logo{
     margin-right: 13px
