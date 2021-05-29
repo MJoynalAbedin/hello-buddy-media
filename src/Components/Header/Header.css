@@ -1,0 +1,23 @@
+.header-left{
+    border-radius: 5px;
+    color: gray;
+    background-color: rgb(233, 248, 252);
+    padding: 10px;
+}
+.header{
+    border-bottom: 0.1px solid lightgray;
+    padding-top:10px;
+    padding-bottom: 10px;
+    /* background-image: linear-gradient(180deg, blue, red); */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    margin-right: 13px
+}
+.header-left input{
+    outline:none;
+    border: none;
+    background: none;
+}
