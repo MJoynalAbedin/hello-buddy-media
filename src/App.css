@@ -1,9 +1,3 @@
-.app {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .app__body {
     display: flex;
 }

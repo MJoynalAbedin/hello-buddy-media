@@ -1,5 +1,5 @@
 .headerOption-icon{
     object-fit: contain;
-    height: 28px;
-    width: 28px
+    height: 28px !important;
+    width: 28px !important
 }

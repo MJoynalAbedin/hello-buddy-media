@@ -14,10 +14,11 @@ function Feed() {
       <div className="feed_inputContainer">
         <div className="feed_input">
           <CreateIcon />
-          <from>
-            <input type="text" />
-            <button className="btn" type="submit">Send</button>
+          <from className="form-section">
+            <input className="feed-text" type="text" />
+            <button className="" type="submit">Send</button>
           </from>
+
         </div>
         <div className="feed_inputOptions">
           <InputOption Icon={ImageIcon} title="photo" color="#70B5F9" />

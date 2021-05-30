@@ -1,5 +1,5 @@
 .feed{
-    flex: .6;
+    flex: 1;
     margin: 0 20px;
 }
 
@@ -24,24 +24,16 @@
 }
 .feed_input > form {
     display: flex;
-    width: 100%;
+    width: 80%;
 }
-.feed_input > form >input{
-    border: none;
-    flex: 1;
-    margin-left: 10px;
-    outline-width: 0;
-    font-weight: 600;
-}
-/* .feed_input > form > button {
-    display: none;
-   
-} */
-.btn{
-    display: none;
-   
+.feed-text{
+    outline: none!important;
+    border: none!important;
 }
 .feed_inputOptions{
-       display:flex;
+    display:flex;
     justify-content: space-evenly;
+}
+.form-section{
+    width: 400px;
 }

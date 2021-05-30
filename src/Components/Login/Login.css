@@ -1,0 +1,15 @@
+.login > form > input{
+    width: 340px;
+    height: 30px;
+    padding: 5px;
+    border-radius:5px;
+    border: 1px solid dimgray
+}
+.login-btn{
+    background-color: #e4f2f8;
+    outline: none;
+    border: 1px solid #73bfe2;
+    border-radius:5px;
+    height: 30px;
+    color: dimgray;
+}
