@@ -2,12 +2,16 @@ import React from 'react';
 import './App.css';
 import Feed from './Components/feed/feed';
 import Header from './Components/Header/Header';
+import Sidebar from './Components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Feed/>
+      <div className="app__body">
+        <Sidebar />
+        <Feed/>
+      </div>
     </div>
   );
 }
