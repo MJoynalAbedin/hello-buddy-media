@@ -26,6 +26,9 @@
     display: flex;
     width: 80%;
 }
+.feed-btn{
+    display: none!important;
+}
 .feed-text{
     outline: none!important;
     border: none!important;

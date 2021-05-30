@@ -1,3 +1,5 @@
+import firebase from 'firebase';
+
 const firebaseConfig = {
     apiKey: "AIzaSyAANfFb_1boVVgxZXOB8vXIAr_oUM6i9Xk",
     authDomain: "hello-buddy-media.firebaseapp.com",
@@ -8,7 +10,13 @@ const firebaseConfig = {
     measurementId: "G-B54N57903F"
 };
 
-export default firebaseConfig;
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebase.firestore();
+const auth = firebase.auth();
+
+
+export {db, auth};
 
 
 //   databaseURL: "https://solar-studio-d83bc.firebaseio.com",
