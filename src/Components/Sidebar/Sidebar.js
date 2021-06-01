@@ -20,21 +20,21 @@ const Sidebar = () => {
             </div>
             <div className="sidebar__stats">
                 <div className="sidebar__stat">
-                    <p>Who viewed you</p>
-                    <p className="sidebar__statNumber">2,544</p>
+                    <p>My Buddy </p>
+                    <p className="sidebar__statNumber">10</p>
                 </div>
                 <div className="sidebar__stat">
                     <p>Views on post</p>
-                    <p className="sidebar__statNumber">2,445</p>
+                    <p className="sidebar__statNumber">4</p>
                 </div>
             </div>
             <div className="sidebar__bottom">
                 <p>Recent</p>
-                    {recentItem('reactJss')}
-                    {recentItem('programming')}
-                    {recentItem('softwareEngineering')}
-                    {recentItem('design')}
-                    {recentItem('developer')}
+                    {recentItem('Recent Activity')}
+                    {recentItem('You liked a post')}
+                    {recentItem('You are now friend with Onim')}
+                    {recentItem('You changed your password')}
+                    {recentItem('You have a new comment')}
             </div>
         </div>
     );
