@@ -1,5 +1,5 @@
 import React from "react";
-import "./post.css";
+import "./Post.css";
 import { Avatar } from "@material-ui/core";
 import InputOption from "../InputOption/InputOption";
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
@@ -8,9 +8,11 @@ import ChatOutlinedIcon from "@material-ui/icons/ChatOutlined";
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
 
+// { name, description, massage, photoUrl }
 
 
 function Post({ name, description, massage, photoUrl }) {
+  
   return (
     <div className="post">
       <div className="post_header">
